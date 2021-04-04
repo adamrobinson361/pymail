@@ -4,7 +4,7 @@ python:
 addons:
   chrome: stable
 before_script:
-  - wget https://chromedriver.storage.googleapis.com/90.0.4430.24/chromedriver_linux64.zip
+  - wget https://chromedriver.storage.googleapis.com/89.0.4389.23/chromedriver_linux64.zip
   - unzip chromedriver_linux64.zip -d /home/travis/virtualenv/python3.9.1/bin/
   - export CHROME_BIN=chromium-browser
 install:
